@@ -1,13 +1,15 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/demo/demo"
+    "pages/stories/index",
+    "pages/stories/show",
+    "pages/vehicles/show"
   ],
   "window": {
-    "navigationBarTitleText": "ninghao.net",
+    "navigationBarTitleText": "宁浩汽车",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black",
-    "enablePullDownRefresh": true,
+    "enablePullDownRefresh": true, 
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ededed"
   },
@@ -17,14 +19,14 @@
     "backgroundColor": "#ededed",
     "list": [
       {
-        "text": "首页",
+        "text": "首ef页",
         "pagePath": "pages/index/index",
         "iconPath": "assets/icons/home.png",
         "selectedIconPath": "assets/icons/home-active.png"
       },
       {
-        "text": "演示",
-        "pagePath": "pages/demo/demo",
+        "text": "故事",
+        "pagePath": "pages/stories/index",
         "iconPath": "assets/icons/event.png",
         "selectedIconPath": "assets/icons/event-active.png"
       }
